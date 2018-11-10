@@ -1,0 +1,62 @@
+.subject_report_card_container{
+  .item_card{
+    background: white;
+    padding: 16px 14px;
+  }
+}
+.card_one_container{
+  // margin-top: 10px;
+  background: white;
+  margin-bottom: 10px;
+  padding: 0 14px;
+  .card_one_top{
+    padding: 11px 0;
+    .card_one_header{
+      .card_title{
+        font-size: 24px;
+        color: #333333;
+        line-height: 33px;
+      }
+      .card_sub{
+        font-size: 12px;
+        color: #9B9B9B;
+        line-height: 17px;
+        width: 145px;
+      }
+    }
+    .card_image{
+      width: 88.5px;
+      height: 50.6px;
+      min-width: 88.5px;
+      margin-left: 5px;
+    }
+  }
+  .card_one_open_btn, .card_one_open_btn_disabled{
+    font-size: 12px;
+    padding: 10px 0;
+  }
+  .card_one_open_btn{
+    color: #407CD5;
+    cursor: pointer;
+  }
+  .card_one_open_btn_disabled{
+    color: #b4b4b4;
+  }
+}
+.subject_report_card_item_container{
+  .card_report_title{
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .card_bottom_container{
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0.23px;
+    .card_message_tag{
+      color: #949CB3;
+    }
+  }
+}

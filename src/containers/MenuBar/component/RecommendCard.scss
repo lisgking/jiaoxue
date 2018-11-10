@@ -1,0 +1,32 @@
+.recommendCard{
+    .ant-tabs-tab{
+        padding: 10px 16px;
+        margin: 0;
+        font-size: 12px;
+        color: #262626;
+    }
+    .ant-tabs-bar{
+        margin: 0;
+    }
+    .ant-card-body{
+        padding: 0;
+    }
+
+    .ant-card-head{
+        padding-top: 14px;
+        padding-bottom: 4px;
+        // font-weight: initial;
+        color: #949CB3;
+        font-weight: 300;
+    }
+    .ant-card-head,
+    .ant-card-body{
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: 0;
+    }
+    .ant-card-head-title{
+        font-size: 12px;
+        color: #949CB3;
+    }
+}

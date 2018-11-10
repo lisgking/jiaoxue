@@ -1,0 +1,19 @@
+.selection_news_card_container{
+  background: white;
+  // border: 1px solid #dddddd;
+  .card_title{
+    font-size: 14px;
+    color: #333333;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .card_image{
+    width:268px;
+    height: 160px;
+    padding: 14px 14px 0;
+  }
+  .card_info_container{
+    padding: 10px 14px 16px;
+  }
+}

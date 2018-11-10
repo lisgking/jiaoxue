@@ -1,0 +1,39 @@
+/**
+ * @description 多语言切换组件样式
+ * @author jhqu
+ * date: 2018-05-18
+ */
+
+@import '../../theme/common.scss';
+
+.language-toggle {
+  $block: &;
+
+  // 语言选项样式
+  &__item {
+    text-decoration: none;
+    color: $color-header-link;
+    
+    // 语言项激活样式
+    &.is-active {
+      text-decoration: none;
+      color: $color-header-link-active;
+    }
+
+    @at-root &:not(.is-active):hover {
+      color: $color-header-link-hover;
+    }
+
+    @at-root &:link,&:hover,&:active {
+      text-decoration: none;
+    }
+
+    // 在语言项之间添加"/"分隔符
+    @at-root & + &::before {
+      content: "/";
+      display: inline-block;
+      margin: 0 6px;
+      color: $color-header-link;
+    }
+  }
+}

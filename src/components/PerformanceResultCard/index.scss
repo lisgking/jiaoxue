@@ -1,0 +1,95 @@
+.performance-result-card {
+  position: relative;
+  width: 268px;
+  padding: 16px 14px;
+  background-color: #fff;
+  font-size: 14px;
+  .sub-btn {
+    position: absolute;
+    right: 14px;
+    top: 22px;
+  }
+  .header {
+    color: #333333;
+    line-height: 22px;
+    font-weight: bold;
+    .company-stock-code {
+      display: inline-block;
+      vertical-align: bottom;
+      max-width: 160px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-right: 4px;
+      padding: 0 4px;
+      font-size: 14px;
+      color: #445C7C;
+      background-color: #F3F5F8;
+    }
+    .icon-perspective {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+      width: 16px;
+      height: 16px;
+      background: url("./images/icon_perspective.png") no-repeat 2px center;
+      background-size: 9px auto;
+      border: 1px solid rgba(64,124,213,0.3);
+      border-radius: 50%;
+    }
+    .icon-perspective font {
+      display: none;
+      font-size: 12px;
+      vertical-align: middle;
+    }
+  }
+  .market-brief::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .market-brief {
+    margin-top: 10px;
+    .market-index {
+      font-size: 12px;
+      color: #000;
+      .unit {
+        margin-left: 4px;
+        display: inline-block;
+        color: #999999;
+      }
+    }
+    .market-value {
+      margin: 6px 0;
+      font-size: 20px;
+      color: #333333;
+    }
+    .market-change {
+      font-size: 12px;
+      color: #666666;
+      .market-change-range {
+        display: inline-block;
+        margin-left: 8px;
+        color: #55A956;
+      }
+    }
+    .market-brief-left, .market-brief-right {
+      width: 50%;
+      float: left;
+    }
+  }
+  .notice-info {
+    margin-top: 17px;
+    font-size: 12px;
+    color: #999999;
+    .round-dot {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      margin: 0 6px;
+      border-radius: 50%;
+      background-color: #949CB3;
+      vertical-align: middle;
+    }
+  }
+}

@@ -1,0 +1,232 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+fieldset, lengend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+}
+html {
+	height: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body {
+    height: 100%;
+    font-family: 'PingFang SC', 'Microsoft YaHei', 'Lantinghei SC', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', 'sans-serif', 'SimSun';
+}
+ul, ol {
+	list-style: none;
+}
+a, a:focus {
+	text-decoration: none;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+.highlight{
+  color: rgb(255, 0, 0);
+}
+.display_none
+{
+  display: none!important;
+}
+.visibility_hidden
+{
+  visibility: hidden;
+}
+.middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+.col_middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col_center_middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.center_middle{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex!important;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+.space_between {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+}
+.space_around {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+}
+.flex_top {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+  }
+.right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end !important;
+  -ms-justify-content: flex-end !important;
+  justify-content: flex-end !important;
+}
+.cursor_pointer
+{
+  cursor:pointer;
+}
+.common_shadow{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.07);
+}
+.str_ellipsis{
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.str_ellpsis_2,.str_ellpsis_3,.str_ellpsis_4{
+  display: -webkit-box;
+  display: -moz-box;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.str_ellpsis_2{
+  -webkit-line-clamp:2;   /*显示行数*/
+}
+.str_ellpsis_3{
+  -webkit-line-clamp:3;   /*显示行数*/
+}
+.str_ellpsis_4{
+  -webkit-line-clamp:4;   /*显示行数*/
+}
+
+input::placeholder{
+  text-indent: 4px;
+  color: rgba(35, 39, 48, 0.5)
+}
+
+.middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.center {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.col_center_middle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.anticon {
+  vertical-align: -0.125em!important;
+  &:before {
+    display: none;
+  }
+}
+
+.scrollbar-track.scrollbar-track-y{
+  background: transparent;
+  width: 4px;
+  .scrollbar-thumb{
+      width: 4px;
+      background: #696F80;
+  }
+}
+
+[data-scrollbar]{
+  height: 100%;
+  width: 100%;
+}
+
+@-webkit-keyframes fadeInOut {
+  0% {
+      opacity:1;
+   }
+  25% {
+      opacity:0;
+  }
+  50% {
+      opacity: 0;    
+  }
+  75% {
+      opacity:1;
+  }
+}
+.anim_fade_image {
+  position:absolute;    
+  -webkit-animation-name: fadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 12s;
+  -webkit-animation-direction: alternate;
+}

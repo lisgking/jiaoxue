@@ -1,0 +1,35 @@
+.card_source_author_container, .card_message_type_container{
+  font-size: 12px;
+  color: #999999;
+}
+.card_source_author_container{
+  margin-bottom: 10px;
+}
+.card_message_type_container{
+  .card_message_from{
+    color:#949CB3;
+  }
+}
+.card_summary_image_container{
+  // margin-bottom: 10px;
+  .card_summary{
+    font-size: 12px;
+    color: #666666;
+    line-height: 18px;
+  }
+  .card_image{
+    width:60px;
+    min-width:60px;
+    width:60px;
+    height: 36px;
+    margin-left: 5px;
+  }
+}
+.card_rating{
+  font-size: 12px;
+  width: 34px;
+  padding: 0 5px;
+  border-radius: 3px;
+  color: white;
+  line-height: 20px;
+}

@@ -1,0 +1,21 @@
+.default-card {
+  width: 268px;
+  text-align: center;
+  .title {
+    color: #999;
+    margin: 10px 0;
+  }
+  .ant-btn {
+    font-size: 12px;
+    border-color: rgba(64,124,213,0.5);
+    span {
+      color: #407CD5;
+    }
+    &:hover {
+      background: #407CD5;
+      span {
+        color: #fff;
+      }
+    }
+  }
+}

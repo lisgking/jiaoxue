@@ -1,0 +1,45 @@
+/**
+ * @description 用户登录信息按钮样式
+ * @author wxiong
+ * date: 2018-10-16
+ */
+
+ .login-user-info {
+    padding-top: 6px;
+    .anticon:before {
+      display: block;
+    }
+   .login-user-info__name {
+      padding-left: 0px;
+      flex-basis: 73px;
+      font-size: 12px;
+   }
+   .login-user-info__avatar {
+    display: inline-flex;
+    width: 26px;
+    height: 26px;
+   }
+   .login-user-info__dropdown-avatar {
+      display: flex;
+      width: 64px;
+      height: 64px;
+      margin-right: 10px;
+      font-size: 44px !important;
+      border-radius: 64px;
+   }
+ }
+
+ .menuBar.min {
+  .login-user-info {
+    width: 90%;
+  }
+  .login-user-info__name {
+    display: none;
+  }
+  .login-user-info__header::after {
+    display: none;
+  }
+  .login-user-info__avatar {
+    margin-left: 6px;
+  }
+}

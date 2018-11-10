@@ -1,0 +1,28 @@
+/**
+ * @description 用户登录信息按钮样式
+ * @author wxiong
+ * date: 2018-10-16
+ */
+
+ .product-menu-button {
+  width: 94%;
+  margin-top: -4px;
+  margin-left: 6px;
+  background-position-x: left;
+  font-size: 12px;
+  &::after {
+    content: " 应用";
+    color: #fff;
+    margin-left: -34px;
+  }
+}
+
+.menuBar.min {
+  .product-menu-button {
+    width: 60%;
+    margin-left: 8px;
+    &::after {
+      content: "";
+    }
+  }
+}

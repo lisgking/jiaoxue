@@ -1,0 +1,91 @@
+.report_card_container{
+  background: white;
+  padding: 16px 14px;
+  .report_card_title_container{
+    font-weight: 500;
+    margin-bottom: 10px;
+    .card_stock_container{
+      padding: 0 5px;
+      font-size: 14px;
+      line-height: 22px;
+      color: #445C7C;
+      display: inline;
+      background: #F3F5F8;
+      margin-right: 5px;
+    }
+    .card_title{
+      font-size: 14px;
+      color: #333333;
+      line-height: 22px;
+      display: inline;
+    }
+    .card_rating_container{
+      display: inline-block;
+      margin-left: 5px;
+      position: relative;
+      top: -2px;
+      // float: right;
+    }
+  }
+  .report_card_summary_container{
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 9px;
+  }
+  .card_source_category_container{
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0.23px;
+    margin-bottom: 6px;
+  }
+  .card_author_container{
+    margin-bottom: 8px;
+    .card_author:last-child .ant-divider{
+      display: none;
+    }
+    .card_author{
+      display: inline;
+      font-size: 12px;
+      color: #999999;
+      letter-spacing: 0.23px;
+      margin-right: 5px;
+      .card_author_honor{
+        width: 12px;
+        height: 12px;
+        margin-right: 9px;
+      }
+    }
+  }
+  .card_tag_container{
+    margin-bottom: 6px;
+    .card_tag{
+      display: inline;
+      margin-right: 5px;
+      // position: relative;
+      // left: -5px;
+      .card_tag_name{
+        border: 1px solid rgba(64, 124, 213, 0.5);
+        padding: 0 3px;
+        border-radius: 2px;
+        display: inline-block;
+        font-size: 12px;
+        // transform:scale(0.8);
+        color: #407CD5;
+        letter-spacing: 0.19px;
+      }
+    }
+  }
+  .card_bottom_container{
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 0.23px;
+    .card_message_from{
+      color: #949CB3;
+    }
+    .card_file{
+      &:hover{
+        color: #407CD5;
+      }
+    }
+  }
+}

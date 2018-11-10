@@ -1,0 +1,28 @@
+#root, .App,.main, .menuBar, .private-container{
+  height:100%;
+}
+.main{
+  display: flex;
+}
+
+.menuBar.min{
+  width: 60px;
+  min-width: 60px;
+
+}
+
+.menuBar{
+  width:150px;
+  min-width: 150px;
+  transition: all 0.1s;
+}
+
+.private-container{
+  width: 9900px;
+  background: #EDF0F2;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.lanes-wrap{
+  width: 2200px;
+}
